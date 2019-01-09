@@ -1,0 +1,20 @@
+#stats-container {
+  display: flex;
+  width: 87%;
+  height: 70%;
+}
+#align-self-center {
+  align-self: center !important;
+  margin-left: 5%;
+}
+#text-right {
+  text-align: right !important;
+  margin-left: auto;
+  padding-right: 5%;
+  color: #6b6f82 !important;
+  font-family: Quicksand;
+  font-size: 1.4rem;
+}
+#text-right h3 {
+  color: rgb(73, 73, 73);
+}

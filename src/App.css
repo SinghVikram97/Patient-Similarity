@@ -35,8 +35,9 @@
 }
 .content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 4fr 4fr;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 1fr 1.5fr 1.5fr;
+  margin-top: -28px;
 }
 .appointment {
   grid-column-start: span 4;
@@ -52,4 +53,8 @@
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
+}
+#stat-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }

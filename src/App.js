@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Sidebar from "./Sidebar/Sidebar";
 import Header from "./Header/Header";
+import Stats from "./Stats/Stats";
 class App extends Component {
   render() {
     return (
@@ -12,10 +13,26 @@ class App extends Component {
         <div className="main border">
           <Header />
           <main className="content border">
-            <div className="stats border">Stats</div>
-            <div className="stats border">Stats</div>
-            <div className="stats border">Stats</div>
-            <div className="stats border">Stats</div>
+            <Stats
+              url="https://img.icons8.com/color/48/000000/medical-doctor.png"
+              heading="Doctors Available"
+              number="122"
+            />
+            <Stats
+              url="https://img.icons8.com/color/48/000000/stethoscope.png"
+              heading="Visiting Doctors"
+              number="34"
+            />
+            <Stats
+              url="https://img.icons8.com/color/48/000000/planner.png"
+              heading="Today's Enquiry"
+              number="3.5K"
+            />
+            <Stats
+              url="https://img.icons8.com/color/48/000000/bedroom.png"
+              heading="Rooms Available"
+              number="179"
+            />
             <div className="appointment border">Appointment</div>
             <div className="doctors border">
               <h3>Doctors Available</h3>
