@@ -1,5 +1,8 @@
 #sidebar-container {
   background-color: white;
+  padding-bottom: 1%;
+  margin-bottom: 0;
+  height: 100%;
 }
 #logo {
   height: 36px;
@@ -13,7 +16,58 @@
   font-size: 1.3rem;
 }
 #logo-container {
-  padding-top: 10%;
+  padding-top: 13%;
   padding-left: 5%;
   padding-bottom: 10%;
+}
+.active {
+  background-color: #f0f0f0;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#sidebar-contents {
+  list-style-type: none;
+  padding-top: 0%;
+  padding-left: 0%;
+  padding-bottom: 0%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#sidebar-contents li {
+  margin-bottom: 10%;
+}
+#sidebar-contents li a {
+  text-decoration: none;
+  color: black;
+}
+#sidebar-contents li i {
+  padding-right: 5%;
+  font-size: 1.2rem;
+}
+#sidebar-contents li a span {
+  font-family: Quicksand;
+  font-size: 1.2rem;
+}
+#navigation-header {
+  text-align: left;
+  padding-left: 5%;
+  font-size: 1.4rem;
+}
+#navigation-header span {
+  color: #45454b;
+  font-family: Quicksand;
+}
+.li-item {
+  text-align: left;
+  padding-left: 7%;
+}
+.li-item a i {
+  padding-right: 0;
+  margin-right: 0;
+}
+.fa-users {
+  font-size: 1rem !important;
+}
+.fa-credit-card {
+  font-size: 1rem !important;
 }
