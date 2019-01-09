@@ -1,0 +1,51 @@
+#header-container {
+  color: white;
+  background-color: #2b87fa;
+  height: 50%;
+  display: flex;
+  padding-left: 2%;
+  align-items: center;
+  font-family: Quicksand;
+}
+.fa-bars {
+  font-size: 1rem;
+}
+.fa-window-maximize {
+  font-size: 1rem;
+  margin-left: 2%;
+}
+.fa-search {
+  font-size: 1rem;
+  margin-left: 2%;
+}
+#header-container span {
+  margin-left: 2%;
+  font-size: 1.2rem;
+}
+.push {
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-gap: 5px;
+}
+#name {
+  align-self: center;
+}
+#avatar {
+  width: 55%;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  border-radius: 1000px;
+}
+.fa-flag {
+  align-self: center;
+  font-size: 1rem;
+  margin-top: 13%;
+}
+.fa-bell {
+  margin-top: 15%;
+}
+.fa-envelope {
+  margin-top: 14%;
+}

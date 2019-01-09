@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Sidebar from "./Sidebar/Sidebar";
-
+import Header from "./Header/Header";
 class App extends Component {
   render() {
     return (
@@ -10,7 +10,7 @@ class App extends Component {
           <Sidebar />
         </div>
         <div className="main border">
-          <header className="border pa3">Header</header>
+          <Header />
           <main className="content border">
             <div className="stats border">Stats</div>
             <div className="stats border">Stats</div>
