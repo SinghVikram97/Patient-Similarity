@@ -111,7 +111,7 @@ export default class Sidebar extends Component {
           </li>
           <li className="li-item">
             <a href="index.html">
-              <i className="fa fa-stack-overflow" aria-hidden="true" />
+              <i className="fa fa-car" aria-hidden="true" />
               <span>Chartjs</span>
             </a>
           </li>
