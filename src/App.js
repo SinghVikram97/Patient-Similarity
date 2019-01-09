@@ -14,8 +14,21 @@ class App extends Component {
             <div className="stats border">Stats</div>
             <div className="stats border">Stats</div>
             <div className="appointment border">Appointment</div>
-            <div className="doctors border">Doctors Available</div>
-            <div className="recentAppointments border">Recent appointments</div>
+            <div className="doctors border">
+              <h3>Doctors Available</h3>
+              <div>Doctor Details</div> 
+              <div>Doctor Details</div>
+              <div>Doctor Details</div>
+              <div>Doctor Details</div>
+            </div>
+            <div className="recentAppointments border">
+              <h3>Recent appointments</h3>
+              <div>Appointment details</div>
+              <div>Appointment details</div>
+              <div>Appointment details</div>
+              <div>Appointment details</div>
+              <div>Appointment details</div>
+            </div>
           </main>
         </div>
       </div>
