@@ -21,26 +21,27 @@
   color: #61dafb;
 }
 
-.container{
+.container {
   display: grid;
-  grid-template-columns: 1fr 8fr;
+  grid-template-columns: 1.2fr 8fr;
+  background-color: #f2f2f8;
 }
-.border{
+.border {
   border: 1px solid black;
 }
-.main{
+.main {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows:1fr 8fr;
+  grid-template-rows: 1fr 8fr;
 }
-.content{
+.content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows:1fr 4fr 4fr;
+  grid-template-rows: 1fr 4fr 4fr;
 }
-.appointment{
+.appointment {
   grid-column-start: span 4;
 }
-.recentAppointments{
+.recentAppointments {
   grid-column-start: span 3;
 }

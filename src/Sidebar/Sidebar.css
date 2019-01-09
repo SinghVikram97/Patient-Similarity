@@ -1,0 +1,19 @@
+#sidebar-container {
+  background-color: white;
+}
+#logo {
+  height: 36px;
+  width: 36px;
+}
+#logo-heading {
+  display: inline-block;
+  white-space: nowrap;
+  font-family: "Quicksand";
+  margin-top: 3.5%;
+  font-size: 1.3rem;
+}
+#logo-container {
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-bottom: 10%;
+}

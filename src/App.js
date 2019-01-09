@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Sidebar from "./Sidebar/Sidebar";
 
 class App extends Component {
   render() {
     return (
       <div className="App container border">
-        <div className="sidebar border">Sidebar</div>
+        <div className="sidebar border">
+          <Sidebar />
+        </div>
         <div className="main border">
           <header className="border pa3">Header</header>
           <main className="content border">
@@ -16,7 +19,7 @@ class App extends Component {
             <div className="appointment border">Appointment</div>
             <div className="doctors border">
               <h3>Doctors Available</h3>
-              <div>Doctor Details</div> 
+              <div>Doctor Details</div>
               <div>Doctor Details</div>
               <div>Doctor Details</div>
               <div>Doctor Details</div>
