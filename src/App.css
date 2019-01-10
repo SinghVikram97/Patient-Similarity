@@ -36,11 +36,14 @@
 .content {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 1fr 1.5fr 1.5fr;
+  grid-template-rows: 1fr 1.5fr 3fr;
   margin-top: -28px;
 }
 .appointment {
   grid-column-start: span 4;
+  background-color: white;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 .recentAppointments {
   grid-column-start: span 3;
@@ -57,4 +60,10 @@
 #stat-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.font {
+  font-family: Quicksand;
+}
+.doctors {
+  width: 118%;
 }

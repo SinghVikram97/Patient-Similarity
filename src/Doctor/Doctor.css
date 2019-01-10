@@ -1,0 +1,14 @@
+#dp {
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  border-radius: 50% !important;
+  vertical-align: middle;
+}
+.designation {
+  color: #787a80 !important;
+}
+.borderBottom {
+  border-bottom: 10px solid gray;
+}

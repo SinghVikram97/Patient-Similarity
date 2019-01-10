@@ -69,7 +69,8 @@ export default class componentName extends Component {
 
   render() {
     return (
-      <div id="graph-container">
+      <div id="graph-container font">
+        <h3 className="font pl4">Appointment</h3>
         <canvas id="canvas" height="25%" width="100%" />
       </div>
     );
