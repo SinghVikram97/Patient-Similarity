@@ -33,7 +33,10 @@ class App extends Component {
               heading="Rooms Available"
               number="179"
             />
-            <div className="appointment border">Appointment</div>
+            <div className="tl appointment border">
+              <div> Hello World! </div>
+              <div> Hello again!</div>
+            </div>
             <div className="doctors border">
               <h3>Doctors Available</h3>
               <div>Doctor Details</div>
