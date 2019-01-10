@@ -67,3 +67,6 @@
 .doctors {
   width: 118%;
 }
+#recentOrders {
+  border-collapse: collapse;
+}

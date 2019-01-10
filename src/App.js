@@ -49,25 +49,55 @@ class App extends Component {
                         name="Jane Andre"
                         designation="Dentist"
                       />
+                      <hr
+                        style={{
+                          color: "grey",
+                          width: "323%"
+                        }}
+                      />
                       <Doctor
                         url="https://pixinvent.com/modern-admin-clean-bootstrap-4-dashboard-html-template/app-assets/images/portrait/small/avatar-s-7.png"
                         name="Kail Reack"
                         designation="Cardiologist"
+                      />
+                      <hr
+                        style={{
+                          color: "grey",
+                          width: "323%"
+                        }}
                       />
                       <Doctor
                         url="https://pixinvent.com/modern-admin-clean-bootstrap-4-dashboard-html-template/app-assets/images/portrait/small/avatar-s-1.png"
                         name="Shail Black"
                         designation="Dermatologist"
                       />
+                      <hr
+                        style={{
+                          color: "grey",
+                          width: "323%"
+                        }}
+                      />
                       <Doctor
                         url="https://pixinvent.com/modern-admin-clean-bootstrap-4-dashboard-html-template/app-assets/images/portrait/small/avatar-s-11.png"
                         name="Zena Wali"
                         designation="Neurologist"
                       />
+                      <hr
+                        style={{
+                          color: "grey",
+                          width: "323%"
+                        }}
+                      />
                       <Doctor
                         url="https://pixinvent.com/modern-admin-clean-bootstrap-4-dashboard-html-template/app-assets/images/portrait/small/avatar-s-6.png"
                         name="Colin Welch"
                         designation="Physiatrist"
+                      />
+                      <hr
+                        style={{
+                          color: "grey",
+                          width: "323%"
+                        }}
                       />
                     </tbody>
                   </table>
