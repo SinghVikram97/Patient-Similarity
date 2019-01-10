@@ -3,6 +3,11 @@
   padding-bottom: 1%;
   margin-bottom: 0;
   height: 100%;
+  padding-right: 1%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 #logo {
   height: 36px;
@@ -24,6 +29,7 @@
   background-color: #f0f0f0;
   padding-top: 5%;
   padding-bottom: 5%;
+  border-right: 8px solid rgb(63, 63, 63);
 }
 #sidebar-contents {
   list-style-type: none;
@@ -32,6 +38,7 @@
   padding-bottom: 0%;
   margin-top: 0;
   margin-bottom: 0;
+  width: 109%;
 }
 #sidebar-contents li {
   margin-bottom: 10%;
