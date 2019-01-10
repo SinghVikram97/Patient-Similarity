@@ -1,0 +1,28 @@
+.table td {
+  border-top: 1px solid #626e82;
+}
+.PatientList {
+  list-style: none;
+}
+.avatar-sm {
+  width: 32px;
+}
+.avatar {
+  position: relative;
+  white-space: nowrap;
+  border-radius: 1000px;
+  vertical-align: bottom;
+  display: inline-block;
+}
+.avatar img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50% !important;
+}
+.avatar li {
+  display: inline-block;
+}
+tbody tr td {
+  text-align: center;
+}

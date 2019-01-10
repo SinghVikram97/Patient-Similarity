@@ -70,3 +70,6 @@
 #recentOrders {
   border-collapse: collapse;
 }
+#recent-orders-doctors {
+  width: 100% !important;
+}

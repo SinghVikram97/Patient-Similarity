@@ -1,7 +1,7 @@
 #stats-container {
   display: flex;
   width: 87%;
-  height: 56%;
+  height: 48%;
 }
 #align-self-center {
   align-self: center !important;
