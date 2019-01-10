@@ -3,6 +3,7 @@ import "./App.css";
 import Sidebar from "./Sidebar/Sidebar";
 import Header from "./Header/Header";
 import Stats from "./Stats/Stats";
+import BarChart from "./BarChart/BarChart";
 class App extends Component {
   render() {
     return (
@@ -34,8 +35,7 @@ class App extends Component {
               number="179"
             />
             <div className="tl appointment border">
-              <div> Hello World! </div>
-              <div> Hello again!</div>
+              <BarChart />
             </div>
             <div className="doctors border">
               <h3>Doctors Available</h3>
